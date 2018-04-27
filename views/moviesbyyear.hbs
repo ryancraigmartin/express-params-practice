@@ -1,0 +1,12 @@
+<h1>Movies made in {{selectedYear}}:</h1>
+<br>
+<div>
+  {{#each yearList}}
+    <h3>Title: {{this.title}}</h3>
+    <h3>Director: {{this.director}}</h3>
+    <h3>Year: {{this.year}}</h3>
+    <h3>Rating: {{this.rate}}</h3>
+    <h3>Duration: {{this.duration}}</h3>
+    <p>----------------------</p>
+  {{/each}}
+</div> 
